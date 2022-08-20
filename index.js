@@ -34,7 +34,7 @@ bot.on('login',function(){
 
 bot.on('time', function(time) {
 	if(nightskip == "true"){
-	if(bot.time.timeOfDay >= 13000){
+	if(bot.HI){
 	bot.chat('hi')
 	}}
     if (connected <1) {
