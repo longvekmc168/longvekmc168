@@ -29,13 +29,13 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat("");
+	bot.chat("HI");
 });
 
 bot.on('time', function(time) {
 	if(nightskip == "true"){
 	if(bot.HI){
-	bot.chat('hi')
+	bot.chat(HIIIIIIIIIIIIIIIII)
 	}}
     if (connected <1) {
         return;
